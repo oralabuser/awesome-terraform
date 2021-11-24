@@ -5,7 +5,7 @@ provider "aws" {
 }
 
 resource "aws_instance" "DemoTerraformCloud" {
-   ami = "ami-020001fa39dfd1881"
+   ami = "ami-0b17e49efb8d755c3"
    instance_type = "t2.micro"
 
    tags = {
